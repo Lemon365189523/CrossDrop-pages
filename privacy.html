@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CrossDrop 隐私政策">
+  <title>隐私政策 — CrossDrop</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .legal {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px 0 48px;
+    }
+    .legal h1 { margin-top: 0; }
+    .legal h2 { margin-top: 28px; font-size: 1.15rem; }
+    .legal p, .legal li { color: var(--text-secondary); }
+    .legal table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    .legal th, .legal td { border: 1px solid rgba(184,196,212,.5); padding: 8px; text-align: left; }
+    .legal th { background: rgba(255,255,255,.5); color: var(--text-primary); }
+    .back-link { display: inline-block; margin-bottom: 16px; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="./">
+        <img src="assets/icon-192.png" width="44" height="44" alt="CrossDrop">
+        <span>CrossDrop</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="container legal">
+    <a class="back-link" href="./">← 返回首页</a>
+    <h1>CrossDrop 隐私政策</h1>
+    <p><strong>生效日期：</strong>2026-08-26<br>
+       <strong>运营主体：</strong>范先生<br>
+       <strong>联系邮箱：</strong>lemonfanvv@gmail.com</p>
+
+    <h2>1. 简介</h2>
+    <p>CrossDrop（「本应用」）帮助你在<strong>同一局域网</strong>内发现附近设备并传输文件。本政策说明我们如何处理与本应用相关的信息。</p>
+
+    <h2>2. 核心原则</h2>
+    <ul>
+      <li><strong>点对点：</strong>文件在你的设备与对方设备之间传输，不经过 CrossDrop 用于存文件的云服务器。</li>
+      <li><strong>无账号：</strong>正常使用不要求注册或登录。</li>
+      <li><strong>需确认：</strong>接收方须在应用内确认后才会开始接收。</li>
+      <li><strong>无广告追踪：</strong>我们不使用广告标识符做跨 App 追踪。</li>
+    </ul>
+
+    <h2>3. 我们处理哪些信息</h2>
+    <table>
+      <thead>
+        <tr><th>信息</th><th>目的</th><th>存储</th><th>是否上传我方服务器</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>设备显示名称</td><td>附近列表展示</td><td>本机</td><td>否</td></tr>
+        <tr><td>设备 ID</td><td>区分设备</td><td>本机</td><td>否</td></tr>
+        <tr><td>传输历史</td><td>历史记录页</td><td>本机</td><td>否</td></tr>
+        <tr><td>文件内容</td><td>完成发送/接收</td><td>本机/传输过程</td><td>否</td></tr>
+      </tbody>
+    </table>
+
+    <h2>4. 权限</h2>
+    <p>本应用可能请求本地网络、通知（Android）、存储/下载等权限。你可在系统设置中拒绝或撤销；对应功能可能不可用。</p>
+
+    <h2>5. 联系我们</h2>
+    <p>如有疑问，请通过文首邮箱联系我们。完整模板见仓库 <code>DEV/上线/隐私政策-草稿.md</code>，上架前请替换占位信息。</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© CrossDrop</span>
+      <a href="./">首页</a>
+    </div>
+  </footer>
+</body>
+</html>

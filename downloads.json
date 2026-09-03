@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "releasedAt": "2026-08-29",
+  "releasesPage": "https://github.com/Lemon365189523/CrossDrop-pages/releases/latest",
+  "supportEmail": "lemonfanvv@gmail.com",
+  "platforms": {
+    "macos": {
+      "label": "macOS",
+      "fileName": "CrossDrop-macOS.dmg",
+      "url": "https://github.com/Lemon365189523/CrossDrop-pages/releases/latest/download/CrossDrop-macOS.dmg",
+      "hint": "macOS 12+ · Apple Silicon / Intel"
+    },
+    "windows": {
+      "label": "Windows",
+      "fileName": "CrossDrop-Windows.zip",
+      "url": "https://github.com/Lemon365189523/CrossDrop-pages/releases/latest/download/CrossDrop-Windows.zip",
+      "hint": "Windows 10+ 便携版 ZIP，解压后运行 crossdrop.exe"
+    },
+    "android": {
+      "label": "Android",
+      "fileName": "CrossDrop-Android.apk",
+      "url": "https://github.com/Lemon365189523/CrossDrop-pages/releases/latest/download/CrossDrop-Android.apk",
+      "hint": "APK 直装",
+      "secondaryLabel": "Google Play",
+      "secondaryUrl": "https://play.google.com/store/apps/details?id=com.crossdrop.app"
+    },
+    "ios": {
+      "label": "iOS",
+      "url": "https://apps.apple.com/app/crossdrop/id0000000000",
+      "hint": "App Store 下载",
+      "store": "appstore"
+    }
+  }
+}
