@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CrossDrop — 局域网互传文件，无需账号。支持 iPhone、Android、Mac 与 Windows。">
+  <meta name="theme-color" content="#E8EEF5">
+  <title>CrossDrop — 局域网文件互传</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="./">
+        <img src="assets/icon-192.png" width="44" height="44" alt="CrossDrop">
+        <span>CrossDrop</span>
+      </a>
+      <nav class="nav-links" aria-label="页面导航">
+        <a href="#download">下载</a>
+        <a href="#web-preview">Web 预览</a>
+        <a href="#features">特点</a>
+        <a href="#how">使用</a>
+        <a href="privacy.html">隐私</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div class="hero-copy">
+        <div class="hero-badges">
+          <span class="badge">无需账号</span>
+          <span class="badge">局域网点对点</span>
+          <span class="badge">接收需确认</span>
+        </div>
+        <h1>附近的设备，传文件就像 AirDrop</h1>
+        <p class="subtitle">同一 Wi‑Fi 下发现 iPhone、Android、Mac 与 Windows，发送前需对方确认，文件不上传云端。</p>
+        <p class="tagline-en">Discover nearby devices on your LAN and send files peer to peer — no cloud.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#download">立即下载</a>
+          <a class="btn btn-secondary" href="#web-preview">在线体验 Web 版</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="产品概览">
+        <img src="assets/icon-192.png" width="120" height="120" alt="">
+        <p>打开即发现附近设备 · 单文件最高 10 GB · 传输历史本地保存</p>
+      </aside>
+    </section>
+
+    <section class="container section" id="download">
+      <h2 class="section-title">下载 CrossDrop</h2>
+      <p class="section-desc">选择你的平台。桌面端与 Android APK 由 GitHub Releases 托管；iOS 跳转 App Store。</p>
+      <div class="download-grid" id="download-grid" aria-live="polite" aria-busy="true">
+        <p class="download-loading hint" id="download-loading">正在加载下载信息…</p>
+      </div>
+      <p class="version-line" id="version-line"></p>
+      <div class="note-box">
+        首次发布前若按钮显示「即将发布」，请在 GitHub 创建 Release 并上传对应安装包（文件名见
+        <code>docs/downloads.json</code>）。iOS 上架后把 App Store 链接写入同一文件即可。
+      </div>
+    </section>
+
+    <section class="container section" id="web-preview">
+      <div class="preview-head">
+        <div>
+          <h2 class="section-title">Web 界面预览</h2>
+          <p class="section-desc">在浏览器中体验 CrossDrop 界面与导航。<strong>Web 版不支持局域网传文件</strong>，完整功能请下载原生客户端。</p>
+        </div>
+        <a class="btn btn-secondary" href="app/" target="_blank" rel="noopener noreferrer">全屏打开</a>
+      </div>
+      <div class="preview-frame-wrap">
+        <iframe
+          class="preview-frame"
+          src="app/"
+          title="CrossDrop Web 预览"
+          loading="lazy"
+          referrerpolicy="same-origin"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="container section" id="features">
+      <h2 class="section-title">为什么选择 CrossDrop</h2>
+      <p class="section-desc">专为同一局域网内的设备互传设计，不是云盘，也不是远程传文件。</p>
+      <div class="features-grid">
+        <article class="feature">
+          <h3>打开即发现</h3>
+          <p>连接同一 Wi‑Fi 后，附近设备自动出现在列表，无需扫码或输入地址。</p>
+        </article>
+        <article class="feature">
+          <h3>传输需确认</h3>
+          <p>接收方在应用内确认后才开始接收，避免误收陌生文件。</p>
+        </article>
+        <article class="feature">
+          <h3>文件不上云</h3>
+          <p>发现与传输均在局域网完成，我们不运营用于存文件的云服务器。</p>
+        </article>
+        <article class="feature">
+          <h3>跨平台</h3>
+          <p>手机与电脑都能用：iOS、Android、macOS、Windows 互相发送。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section" id="how">
+      <h2 class="section-title">三步开始</h2>
+      <div class="steps">
+        <article class="step">
+          <span class="step-num">1</span>
+          <h3>连接同一 Wi‑Fi</h3>
+          <p>避免访客网络或客户端隔离；必要时关闭 VPN。</p>
+        </article>
+        <article class="step">
+          <span class="step-num">2</span>
+          <h3>允许本地网络权限</h3>
+          <p>iOS 需允许「本地网络」；Android 需允许附近设备相关权限。</p>
+        </article>
+        <article class="step">
+          <span class="step-num">3</span>
+          <h3>选择文件并发送</h3>
+          <p>点选附近设备 → 选文件 → 对方确认后开始传输。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© CrossDrop · AirDrop for Everyone</span>
+      <span>
+        <a href="privacy.html">隐私政策</a>
+        ·
+        <a href="https://github.com/Lemon365189523/CrossDrop" target="_blank" rel="noopener noreferrer">GitHub</a>
+        ·
+        <a href="https://github.com/Lemon365189523/CrossDrop/releases" target="_blank" rel="noopener noreferrer">Releases</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
